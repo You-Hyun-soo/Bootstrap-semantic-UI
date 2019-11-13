@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="semantic.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="box"></div>
+    <!-- semantic ui는 익스 11 버전 이상부터 가능 
+        16 columns  편집 디자인
+
+    -->
+    <div class="ui selection dropdown">
+            <input type="hidden" name="gender">
+            <i class="dropdown icon"></i>
+            <div class="default text">Gender</div>
+            <div class="menu">
+              <div class="item" data-value="1">Male</div>
+              <div class="item" data-value="0">Female</div>
+            </div>
+          </div>
+          <select class="ui dropdown">
+                <option value="">Gender</option>
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+              </select>
+              <div class="ui modal">
+                    <i class="close icon"></i>
+                    <div class="header">
+                      Profile Picture
+                    </div>
+                    <div class="image content">
+                      <div class="ui medium image">
+                        <img src="/images/avatar/large/chris.jpg">
+                      </div>
+                      <div class="description">
+                        <div class="ui header">We've auto-chosen a profile image for you.</div>
+                        <p>We've grabbed the following image from the <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your registered e-mail address.</p>
+                        <p>Is it okay to use this photo?</p>
+                      </div>
+                    </div>
+                    <div class="actions">
+                      <div class="ui black deny button">
+                        Nope
+                      </div>
+                      <div class="ui positive right labeled icon button">
+                        Yep, that's me
+                        <i class="checkmark icon"></i>
+                      </div>
+                    </div>
+                  </div>
+              <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="semantic.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
